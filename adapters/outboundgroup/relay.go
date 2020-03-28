@@ -6,11 +6,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Dreamacro/clash/adapters/outbound"
-	"github.com/Dreamacro/clash/adapters/provider"
-	"github.com/Dreamacro/clash/common/singledo"
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/fengyie007/clash/adapters/outbound"
+	"github.com/fengyie007/clash/adapters/provider"
+	"github.com/fengyie007/clash/common/singledo"
+	"github.com/fengyie007/clash/component/dialer"
+	C "github.com/fengyie007/clash/constant"
 )
 
 type Relay struct {

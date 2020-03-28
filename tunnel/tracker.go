@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	C "github.com/brobird/clash/constant"
+	C "github.com/fengyie007/clash/constant"
 )
 
 type tracker interface {

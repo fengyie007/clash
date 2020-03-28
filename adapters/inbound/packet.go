@@ -1,8 +1,8 @@
 package inbound
 
 import (
-	"github.com/brobird/clash/component/socks5"
-	C "github.com/brobird/clash/constant"
+	"github.com/fengyie007/clash/component/socks5"
+	C "github.com/fengyie007/clash/constant"
 )
 
 // PacketAdapter is a UDP Packet adapter for socks/redir/tun

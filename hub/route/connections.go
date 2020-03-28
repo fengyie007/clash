@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	T "github.com/brobird/clash/tunnel"
+	T "github.com/fengyie007/clash/tunnel"
 	"github.com/gorilla/websocket"
 
 	"github.com/go-chi/chi"

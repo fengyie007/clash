@@ -10,9 +10,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/brobird/clash/adapters/outbound"
-	C "github.com/brobird/clash/constant"
-	"github.com/brobird/clash/log"
+	"github.com/fengyie007/clash/adapters/outbound"
+	C "github.com/fengyie007/clash/constant"
+	"github.com/fengyie007/clash/log"
 
 	"gopkg.in/yaml.v2"
 )

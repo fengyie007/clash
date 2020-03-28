@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/brobird/clash/common/cache"
-	"github.com/brobird/clash/log"
+	"github.com/fengyie007/clash/common/cache"
+	"github.com/fengyie007/clash/log"
 
 	D "github.com/miekg/dns"
 )

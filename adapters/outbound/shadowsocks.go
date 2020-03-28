@@ -9,12 +9,12 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/brobird/clash/common/structure"
-	"github.com/brobird/clash/component/dialer"
-	obfs "github.com/brobird/clash/component/simple-obfs"
-	"github.com/brobird/clash/component/socks5"
-	v2rayObfs "github.com/brobird/clash/component/v2ray-plugin"
-	C "github.com/brobird/clash/constant"
+	"github.com/fengyie007/clash/common/structure"
+	"github.com/fengyie007/clash/component/dialer"
+	obfs "github.com/fengyie007/clash/component/simple-obfs"
+	"github.com/fengyie007/clash/component/socks5"
+	v2rayObfs "github.com/fengyie007/clash/component/v2ray-plugin"
+	C "github.com/fengyie007/clash/constant"
 
 	"github.com/Dreamacro/go-shadowsocks2/core"
 )

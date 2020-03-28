@@ -3,7 +3,7 @@ package redir
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/common/pool"
+	"github.com/fengyie007/clash/common/pool"
 )
 
 type fakeConn struct {

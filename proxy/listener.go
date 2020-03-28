@@ -5,10 +5,10 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/Dreamacro/clash/log"
-	"github.com/brobird/clash/proxy/http"
-	"github.com/brobird/clash/proxy/redir"
-	"github.com/brobird/clash/proxy/socks"
+	"github.com/fengyie007/clash/log"
+	"github.com/fengyie007/clash/proxy/http"
+	"github.com/fengyie007/clash/proxy/redir"
+	"github.com/fengyie007/clash/proxy/socks"
 )
 
 var (

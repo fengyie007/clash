@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	C "github.com/brobird/clash/constant"
-	"github.com/brobird/clash/component/dialer"
+	"github.com/fengyie007/clash/component/dialer"
+	C "github.com/fengyie007/clash/constant"
 	"github.com/brobird/gossr/obfs"
 	"github.com/brobird/gossr/protocol"
 
@@ -102,7 +102,7 @@ func (ssrins *ShadowsocksR) DialContext(ctx context.Context, metadata *C.Metadat
 		_ = dstcon.Close()
 		return nil, err
 	}
-	return newConn(dstcon, ssrins), err
+	return NewConn(dstcon, ssrins), err
 
 }
 

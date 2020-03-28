@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/brobird/clash/component/resolver"
+	"github.com/fengyie007/clash/component/resolver"
 )
 
 func Dialer() *net.Dialer {
